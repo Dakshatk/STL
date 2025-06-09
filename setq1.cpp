@@ -9,9 +9,11 @@ int main(){
         set<int>b;
         for(int i=0;i<6;i++){
             b.insert(a[i]);
-            cout<<a[i]<<" ";
         }
         cout<<endl;
             cout<<b.size();
+        for(auto it:b){
+            cout<<it<<" ";
+        }
     return 0;
 }
