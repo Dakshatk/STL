@@ -10,8 +10,8 @@ int main(){
         for(int i=0;i<6;i++){
             b.insert(a[i]);
         }
-        cout<<endl;
-            cout<<b.size();
+    
+        cout<<b.size()<<endl;
         for(auto it:b){
             cout<<it<<" ";
         }

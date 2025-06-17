@@ -4,7 +4,6 @@ int main(){
     string s;
     cout << "Enter your string: ";
     cin >> s;
-    //cout << "Hello, " <<s<< "!" <<endl;
     unordered_map<char,int> non;
     for(char c:s){
         non[c]++;
